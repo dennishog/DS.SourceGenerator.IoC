@@ -1,13 +1,16 @@
 # DS.SourceGenerator.IoC
 
-##Goal
+## Why?
+For fun and for me to begin learning how to write source generators.
+
+## Goal
 To be able to automatically generate an extension method on IServiceCollection that can be used in startup/program with all registrations of classes.
 The package is not intended to replace any MS extension methods, such as AddDbContext, etc.
 
-##Installation
+## Installation
 Install package DS.SourceGenerator.IoC from nuget using package manager
 
-##Usage
+## Usage
 ```
     [Inject(typeof(ISomeService))]
     public class SomeService : ISomeService
